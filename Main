@@ -1,0 +1,22 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+Rayfield:LoadConfiguration()
+local Window = Rayfield:CreateWindow({
+    Name = "Prizon",
+    Icon = 9409626396, -- Asset ID for the icon
+    LoadingTitle = "Rayfield Interface Suite",
+    LoadingSubtitle = "by Ocyx",
+    Theme = "Ocean",
+    DisableRayfieldPrompts = false,
+    DisableBuildWarnings = false,
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = nil,
+        FileName = "PrizonHub"
+    },
+    Discord = {
+        Enabled = false,
+        Invite = "noinvitelink",
+        RememberJoins = true
+    },
+    KeySystem = false
+})
