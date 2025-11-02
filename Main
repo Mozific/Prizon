@@ -20,3 +20,8 @@ local Window = Rayfield:CreateWindow({
     },
     KeySystem = false
 })
+local Window:CreateTab("Main")
+local Window:CreateTab("Player")
+local Window:CreateTab("Visual")
+local Window:CreateTab("Combat")
+local Ciryx:CreateTab("Locations")
